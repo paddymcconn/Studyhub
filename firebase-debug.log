@@ -1,0 +1,73 @@
+[debug] [2018-01-24T14:01:18.742Z] ----------------------------------------------------------------------
+[debug] [2018-01-24T14:01:18.759Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Patrick\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-01-24T14:01:18.763Z] CLI Version:   3.17.3
+[debug] [2018-01-24T14:01:18.763Z] Platform:      win32
+[debug] [2018-01-24T14:01:18.763Z] Node Version:  v6.11.3
+[debug] [2018-01-24T14:01:18.763Z] Time:          Wed Jan 24 2018 14:01:18 GMT+0000 (GMT Standard Time)
+[debug] [2018-01-24T14:01:18.763Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-01-24T14:01:18.803Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-01-24T14:01:18.803Z] > authorizing via signed-in user
+[debug] [2018-01-24T14:01:18.815Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/studyhub-5afcc  
+  
+ Wed Jan 24 2018 14:01:18 GMT+0000 (GMT Standard Time)
+[debug] [2018-01-24T14:01:19.456Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-24T14:01:19.456Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/studyhub-5afcc/tokens  
+  
+ Wed Jan 24 2018 14:01:19 GMT+0000 (GMT Standard Time)
+[debug] [2018-01-24T14:01:20.037Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Patrick\firebase\StudyHub'...
+[info] 
+[debug] [2018-01-24T14:01:20.053Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/studyhub-5afcc  
+  
+ Wed Jan 24 2018 14:01:20 GMT+0000 (GMT Standard Time)
+[debug] [2018-01-24T14:01:20.888Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-24T14:01:20.888Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/833750110144/clients/_:getWebAppConfig  
+  
+ Wed Jan 24 2018 14:01:20 GMT+0000 (GMT Standard Time)
+[debug] [2018-01-24T14:01:21.408Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-01-29T16:53:48.946Z] ----------------------------------------------------------------------
+[debug] [2018-01-29T16:53:48.953Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Patrick\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-01-29T16:53:48.954Z] CLI Version:   3.17.3
+[debug] [2018-01-29T16:53:48.955Z] Platform:      win32
+[debug] [2018-01-29T16:53:48.955Z] Node Version:  v6.11.3
+[debug] [2018-01-29T16:53:48.956Z] Time:          Mon Jan 29 2018 16:53:48 GMT+0000 (GMT Standard Time)
+[debug] [2018-01-29T16:53:48.956Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-01-29T16:53:49.010Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-01-29T16:53:49.013Z] > authorizing via signed-in user
+[debug] [2018-01-29T16:53:49.020Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-01-29T16:53:49.021Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/EclD4iGnIhZuOPv3ZRTTZLWwI8C22wuBm_fDRqTTA6FwS02ABuUG2DPCz2QATZOB',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Mon Jan 29 2018 16:53:49 GMT+0000 (GMT Standard Time)
+[debug] [2018-01-29T16:53:49.181Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-29T16:53:49.205Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/studyhub-5afcc  
+  
+ Mon Jan 29 2018 16:53:49 GMT+0000 (GMT Standard Time)
+[debug] [2018-01-29T16:53:49.845Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-29T16:53:49.849Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/studyhub-5afcc/tokens  
+  
+ Mon Jan 29 2018 16:53:49 GMT+0000 (GMT Standard Time)
+[debug] [2018-01-29T16:53:50.519Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Patrick\firebase\StudyHub'...
+[info] 
+[debug] [2018-01-29T16:53:50.531Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/studyhub-5afcc  
+  
+ Mon Jan 29 2018 16:53:50 GMT+0000 (GMT Standard Time)
+[debug] [2018-01-29T16:53:51.273Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-29T16:53:51.274Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/833750110144/clients/_:getWebAppConfig  
+  
+ Mon Jan 29 2018 16:53:51 GMT+0000 (GMT Standard Time)
+[debug] [2018-01-29T16:53:52.375Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
